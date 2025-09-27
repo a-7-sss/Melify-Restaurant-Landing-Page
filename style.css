@@ -1521,6 +1521,9 @@ footer img {
         text-align: center;
         margin: 0;
     }
+    .middle .p {
+        padding: 0 55px;
+    }
     .middle .h1 h1 {
         padding: 0px 0px 5px;
     }
@@ -1554,6 +1557,9 @@ footer img {
             left: 80%;
             transition-delay: 0.5s;
         }
+    }
+    .middle .p {
+        padding: 0 35px;
     }
 }
 
