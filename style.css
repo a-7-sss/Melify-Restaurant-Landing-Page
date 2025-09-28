@@ -29,7 +29,8 @@ body {
     --font1: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
-.dark-mode {
+
+/* .dark-mode {
     --text-color: rgb(200, 200, 200);
     --special-text: rgb(255, 255, 255);
     --main-color-sections: black;
@@ -38,7 +39,7 @@ body {
     --padding-sections: 80px 0px;
     --font1: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     transition: background 0.3s, color 0.3s;
-}
+} */
 
 
 /* NAVBAR */
@@ -147,7 +148,8 @@ nav ul li a:hover::after {
     width: 100%;
 }
 
-#dark-mode-toggle {
+
+/* #dark-mode-toggle {
     border: none;
     display: flex;
     justify-content: center;
@@ -159,7 +161,7 @@ nav ul li a:hover::after {
 
 #dark-mode-toggle img {
     color: var(--main-color-sections);
-}
+} */
 
 .header-content {
     display: flex;
@@ -178,6 +180,10 @@ nav ul li a:hover::after {
     width: 80%;
     gap: 100px;
     margin: auto;
+}
+
+header .content-text .top-text span {
+    color: var(--color-text-headings);
 }
 
 header .content-text {
@@ -327,11 +333,9 @@ header .btns .btn-1 {
 
 .full-card:hover {
     .social {
-        position: absolute;
-        background-color: rgba(0, 0, 0, 0);
         opacity: 1;
-        left: 85%;
-        transition-delay: 0.5s;
+        left: 82%;
+        transition-delay: 0.3s;
     }
 }
 
@@ -439,8 +443,8 @@ header .btns .btn-1 {
     width: 15%;
     opacity: 0;
     left: 100%;
-    transition: all 0.4s ease;
-    transition-delay: 0.4s;
+    transition: all 0.3s ease;
+    transition-delay: 0.3s;
 }
 
 .social ul {
@@ -1123,6 +1127,10 @@ footer img {
         justify-content: space-between;
         align-items: center;
     }
+    .cards .mads {
+        object-position: 55% 0%;
+        object-fit: cover;
+    }
     footer .container {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -1296,6 +1304,13 @@ footer img {
         text-align: left;
         padding: 10px;
     }
+    .full-card:hover {
+        .social {
+            opacity: 1;
+            left: 84%;
+            transition-delay: 0.3s;
+        }
+    }
     footer .container {
         display: flex;
         align-items: center;
@@ -1458,6 +1473,13 @@ footer img {
     }
     .btns .f-btn {
         padding-left: 5px;
+    }
+    .full-card:hover {
+        .social {
+            opacity: 1;
+            left: 80%;
+            transition-delay: 0.3s;
+        }
     }
     #gallary .pics {
         display: block;
