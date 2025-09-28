@@ -1032,6 +1032,10 @@ footer img {
             transition-delay: 0.5s;
         }
     }
+    .cards .mads {
+        object-position: 51% 0;
+        object-fit: cover;
+    }
 }
 
 @media (max-width: 992px) {
